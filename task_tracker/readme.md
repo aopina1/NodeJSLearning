@@ -1,6 +1,6 @@
 # Task Tracker
 
-Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
+Simple solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 This is a simple command-line interface (CLI) application for managing tasks.
 
@@ -21,10 +21,10 @@ This is a simple command-line interface (CLI) application for managing tasks.
 **Clone the Repository**
 
    ```bash
-   git clone --depth=1 https://github.com/aopina1/NodeJSLearning
+   git clone https://github.com/aopina1/NodeJSLearning
 
    # Navigate to the project Directory
-   cd backend-projects/task-cli
+   cd task_tracker
    ```
 ## Usage
 
