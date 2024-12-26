@@ -1,4 +1,4 @@
-// filename: parseUserInput.js
+// filename: addNewTask.js
 /*
 This function opens the task registers and append a new task.
 If task register does not exist, the function creates it
@@ -33,13 +33,9 @@ function addNewTask(task_name, task_db_fname){
                     };
                     existingData.push(taskObj);
                     let existingDataStr = JSON.stringify(existingData);
-                    existingDataStr = "[\n"+existingDataStr.slice(1,-1)+"\n]"
-                    existingDataStr = existingDataStr.split("},{");
-                    existingDataStr = existingDataStr.join("},\n{");
                     fs.writeFile(task_db_fname, existingDataStr, function(err){
                         if (err) {throw err};
-                    }
-                    );
+                    });
                 }
             }
             );
