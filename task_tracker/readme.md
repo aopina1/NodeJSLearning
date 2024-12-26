@@ -80,7 +80,7 @@ node main.js delete 1
             "createdAt": "2024-12-26T21:56:24.360Z",
             "updatedAt": "2024-12-26T21:56:24.360Z"
         }
-    },
+    }
 ]
 ```
-> Note: You can edit the JSON file in main.js. If JSON file does not exists it will be created when adding the first task.
+> Note: You can edit the JSON filename in main.js. If JSON file does not exists it will be created when adding the first task.
